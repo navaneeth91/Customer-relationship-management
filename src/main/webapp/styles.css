@@ -1,0 +1,87 @@
+body {
+  font-family: "Helvetica Neue",sans-serif;
+  background-image: url(crm.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+}
+body h1{
+  font-size:50px;
+  font-family:"Times New Roman";
+}
+.form-container {
+    color:white;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+
+    max-height: 600px;
+    text-align: center;
+    margin-top: 140px;
+    margin-left: 30px;
+   background: rgba(220, 220, 220, 0.46);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(7.2px);
+   -webkit-backdrop-filter: blur(7.2px);
+   border: 1px solid rgba(0, 0, 0, 1)
+  }
+
+  form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  form .box {
+    width: 90%;
+    padding: 12px 15px;
+    margin:10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 14px;
+    background:transparent;
+    color:black;
+  }
+  form .box::placeholder{
+  color:black;
+  }
+
+  form select.box {
+    cursor: pointer;
+  }
+
+  form .btn {
+    width: 150px;
+    padding: 12px;
+    background-color: #ff4b2b;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+
+  form .btn:hover {
+    background-color: #e63946;
+  }
+
+  form p {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+
+  form p a {
+    color: #ff4b2b;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  form p a:hover {
+    text-decoration: underline;
+  }
